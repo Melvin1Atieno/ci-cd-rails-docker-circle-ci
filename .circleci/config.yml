@@ -5,7 +5,7 @@ jobs:
   build:
     docker:
       environment:
-        RAILS_ENV=test
+        RAILS_ENV: test
 
     # specifies all the commands that will be executed during this build
     steps:
